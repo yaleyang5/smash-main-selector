@@ -1,0 +1,135 @@
+body,
+html {
+  min-height: 100%;
+}
+
+html::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(151, 180, 227, 0.3);
+}
+
+body {
+  position: relative;
+  background-image: url('https://i.imgur.com/RZedQnT.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: rgb(123, 0, 255);
+  font-size: 450%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.description {
+  text-align: center;
+  color: #020aff;
+  margin: 0 0 0 0;
+  margin-bottom: 1%;
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.app {
+  position: relative;
+  background-color: rgba(235, 213, 255, 0.4);
+  border: 2px solid;
+  border-radius: 2%;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+
+.character-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-box {
+  position: relative;
+  margin: 0%;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(250, 250, 210, .7);
+  border-radius: 3%;
+  border: 5px solid rgb(250, 250, 210, .2);
+}
+
+.current-character {
+  position: relative;
+  margin: 0%;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(250, 250, 210, .7);
+  border-radius: 3%;
+  border: 5px solid green;
+}
+
+.character {
+  /* display: flex; */
+  width: 100%;
+  height: auto;
+  /* padding: 10px; */
+}
+
+.selected-character {
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: none;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.character-description {
+  padding: 2%;
+  text-align: left;
+  color: rgb(198, 24, 146);
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.character-attributes {
+  text-align: left;
+  padding-top: 3%;
+  margin: 0 0 0 0;
+  font-size: 80%;
+  color: rgb(29, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.character-synopsis {
+  text-align: left;
+  padding-top: 2%;
+  margin: 0 0 0 0;
+  font-size: 50%;
+  color: rgb(29, 22, 22);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.move-gif {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  padding: 2%;
+  width: 50%;
+  height: auto;
+}
