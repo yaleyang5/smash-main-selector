@@ -97,7 +97,7 @@ const characterList = [
     url: "https://mario.wiki.gallery/images/thumb/8/82/Ness_SSBU.png/81px-Ness_SSBU.png",
     move: "https://ultimateframedata.com/hitboxes/ness/NessUAir.gif",
     moveName: "Up Aerial",
-    synopsis: ""
+    synopsis: "Ness's strong aerial drift and moves as well as his versatile specials make him a competitively viable character in Super Smash Bros Ultimate. With his P.K. Fire attack (Side Special), as well as his Up Aerial and Back Aerial, he is able to rack up damage and K.O. opponents very quickly. Ness requires a lot of precision in order to optimally play the character, but he rewards precise play. However, his limited range and vulnerable recovery are weaknesses that must be managed in order to succeed with the character."
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ const characterList = [
     url: "https://mario.wiki.gallery/images/thumb/7/76/CaptainFalcon_SSBU.png/114px-CaptainFalcon_SSBU.png",
     move: "https://ultimateframedata.com/hitboxes/captain_falcon/CaptainFalconNAir.gif",
     moveName: "Neutral Aerial",
-    synopsis: ""
+    synopsis: "Captain America is one of the most explosive characters in the game, using his variety of fast, powerful moves such as his Neutral Aerial, Up Aerial, and Back Aerial that can be used to rack up damage quickly. Captain Falcon also has high mobility, with fast ground and air speed, which makes it easy for him to bait opponents and punish even minute mistakes. Captain Falcon's greatest weakness lies in his limited and predictable recovery options, making him vulnerable to edgeguarding. Many of Captain Falcon's attacks lack disjoints, which can make it difficult for him to approach opponents with longer-range attacks."
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ const characterList = [
     url: "https://mario.wiki.gallery/images/thumb/6/6a/Jigglypuff_SSBU.png/120px-Jigglypuff_SSBU.png",
     move: "https://ultimateframedata.com/hitboxes/jigglypuff/JigglypuffRest.gif",
     moveName: "Rest (Down Special)",
-    synopsis: ""
+    synopsis: "One of Jigglypuff's greatest strength in having the best aerial mobility in the game, with 5 midair jumps and Aerials that are strong for edgeguarding, such as her Back Aerial and Neutral Aerial. However, her strongest tool by far is her Down Special, Rest--an extremely quick yet precise move that can K.O. opponents extremely early, with its downsides being it's extremely small hitbox, as well as the fact that upon missing, Jigglypuff will be in a helpless sleep state for a very long time. Jigglypuff is also one of the lightest characters in the game, making her susceptible to being KO'd at low percents, making Rest an even riskier option to use. However, centering a game plan around this extremely strong move is arguably the best way to unleash her competitive potential."
   }
 ]
 
