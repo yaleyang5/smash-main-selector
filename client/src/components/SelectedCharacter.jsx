@@ -19,7 +19,9 @@ const SelectedCharacter = ({characters, currChar}) => {
           Synoposis: {characters[currChar - 1] !== undefined ? characters[currChar - 1].synopsis : ""}
         </p>
       </div>
-      <img className="move-gif" src={characters[currChar - 1] !== undefined ? characters[currChar - 1].move : ""}/>
+      <div className="move-gif-box">
+        <img className="move-gif" src={characters[currChar - 1] !== undefined ? characters[currChar - 1].move : ""}/>
+      </div>
     </div>
   );
 }

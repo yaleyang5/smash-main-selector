@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Header from './Header.jsx';
 import Character from './Character.jsx';
 import CharacterList from './CharacterList.jsx';
 import SelectedCharacter from './SelectedCharacter.jsx';
@@ -16,13 +17,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 className="title">
-        Super Smash Bros. Main Selector
-      </h1>
-      <h2 className="description">
-        Find the perfect character for you!
-      </h2>
       <CharacterList characters={characters} currChar={currChar} setCurrChar={setCurrChar}/>
+      <Header currChar={currChar}/>
       <SelectedCharacter currChar={currChar} characters={characters}/>
       {/* <h3 className="character-attributes">
         Tournament Results/Viability:
