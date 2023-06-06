@@ -4,7 +4,7 @@ import axios from 'axios';
 const Character = ({character, currChar, setCurrChar}) => {
   // console.log(character);
   const handleClick = () => {
-    setCurrChar(character.id);
+    currChar === character.id ? setCurrChar(0) : setCurrChar(character.id);
   }
 
   return (
