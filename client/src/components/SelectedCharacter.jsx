@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import MoveGif from './MoveGif.jsx';
 
 const SelectedCharacter = ({characters, currChar}) => {
   return (
@@ -19,9 +20,7 @@ const SelectedCharacter = ({characters, currChar}) => {
           Synoposis: {characters[currChar - 1] !== undefined ? characters[currChar - 1].synopsis : ""}
         </p>
       </div>
-      <div className="move-gif-box">
-        <img className="move-gif" src={characters[currChar - 1] !== undefined ? characters[currChar - 1].move : ""}/>
-      </div>
+      <MoveGif currChar={currChar} characters={characters} />
     </div>
   );
 }
