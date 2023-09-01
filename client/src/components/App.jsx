@@ -12,7 +12,7 @@ const App = () => {
   const [currChar, setCurrChar] = React.useState(0);
 
   React.useEffect(() => {
-    console.log("We are just rerendering the page for the images.");
+    // console.log("We are just rerendering the page for the images.");
   }, []);
 
   return (
