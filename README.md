@@ -28,5 +28,5 @@ Installation
 - Run the following script
     ```
         npm start
-        npm build
+        npm run build
     ```
