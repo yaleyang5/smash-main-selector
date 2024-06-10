@@ -29,15 +29,15 @@ A simple informational website that will help you choose your next main in any S
 
 Installation
 - Clone the repository
-    ```
-        git clone https://github.com/yaleyang5/smash-main-selector.git
-    ```
+```
+git clone https://github.com/yaleyang5/smash-main-selector.git
+```
 - Install the dependencies
-    ```
-        npm install
-    ```
+```
+npm install
+```
 - Run the following script
-    ```
-        npm start
-        npm run build
-    ```
+```
+npm start
+npm run build
+```
