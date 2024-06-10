@@ -41,7 +41,7 @@ body {
 
 .app {
   position: relative;
-  background-color: rgba(235, 213, 255, 0.4);
+  background-color: rgba(235, 213, 255, 0.75);
   border: 2px solid;
   border-radius: 2%;
   margin: auto;
@@ -100,7 +100,7 @@ body {
   padding: 2%;
   text-align: left;
   color: rgb(198, 24, 146);
-  font-size: 200%;
+  font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   width: auto;
@@ -113,7 +113,7 @@ body {
   text-align: left;
   padding-top: 2%;
   margin: 0 0 0 0;
-  font-size: 70%;
+  font-size: 24px;
   color: rgb(29, 22, 22);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -123,7 +123,7 @@ body {
   text-align: left;
   padding-top: 2%;
   margin: 0 0 0 0;
-  font-size: 40%;
+  font-size: 16px;
   color: rgb(29, 22, 22);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;

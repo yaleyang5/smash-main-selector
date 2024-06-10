@@ -10,7 +10,7 @@ const MoveGif = ({currChar, characters}) => {
   // };
 
   return (
-    <div className="move-gif-box">
+    <div className="move-gif-box" onClick={() => window.open(characters[currChar - 1] !== undefined ? characters[currChar - 1].move : "")}>
       {/* {isLoading ? (
         <img src={LoadingGif} alt="Loading" />
       ) : ( */}
